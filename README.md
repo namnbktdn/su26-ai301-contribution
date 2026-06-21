@@ -1,8 +1,11 @@
 # Contribution 1: Defining the data size of chunks
 
 **Contribution Number:** 1
+
 **Student:** Nam Hoang
+
 **Issue:** https://github.com/zarr-developers/zarr-python/issues/270
+
 **Status:** Phase I
 
 ---
