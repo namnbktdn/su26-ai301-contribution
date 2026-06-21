@@ -20,19 +20,19 @@ Zarr-Python is actually one of the tools I’m currently using in my research, w
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+This issue acts as a good-first enhancement issue. It proposed usng a the "disk size" units to define the chunk, instead of dimensions. 
 
 ### Expected Behavior
 
-[What should happen?]
+For example, zarr.zeros(..., chunks="100MB", ...) will chunk in a way that each chunk is 100MB. 
 
 ### Current Behavior
 
-[What actually happens?]
+Now, we can only provide the dimension shape for the chunk, like zarr.zeros(..., chunks=(1, 100, 100), ...) and the chunk size will be calculated based on the data shape and the chunk shape. 
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+
 
 ---
 
