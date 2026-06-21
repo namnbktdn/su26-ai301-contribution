@@ -1,15 +1,15 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: Defining the data size of chunks
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1
+**Student:** Nam Hoang
+**Issue:** https://github.com/zarr-developers/zarr-python/issues/270
+**Status:** Phase I
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+Zarr-Python is actually one of the tools I’m currently using in my research, where I’m integrating a new data format for biomedical imaging data in my field. Because of that, understanding the Zarr library more deeply would directly support my research, and this issue seems like a great first step toward learning the codebase.
 
 ---
 
